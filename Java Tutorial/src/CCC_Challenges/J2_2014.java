@@ -1,7 +1,6 @@
 package CCC_Challenges;
 
 import java.util.Scanner;
-import org.apache.commons.lang3.StringUtils;
 
 public class J2_2014 {
 	
@@ -14,8 +13,8 @@ public class J2_2014 {
 		String votes = in.next();
 		
 		for (int x = 0; x <= v; x++) {
-			char ch = ;
-			if (votes.charAt(x).equals("A")) {
+			String ch = votes.substring(x, x);
+			if (ch == "A") {
 				a++;
 			}else{
 				b++;
